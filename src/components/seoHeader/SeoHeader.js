@@ -50,14 +50,14 @@ function SeoHeader() {
       "@type": "Organization",
       name: job.company,
     },
-    address: {
-      "@type": "PostalAddress",
-      addressLocality: contactPageData.addressSection?.locality,
-      addressRegion: contactPageData.addressSection?.region,
-      addressCountry: contactPageData.addressSection?.country,
-      postalCode: contactPageData.addressSection?.postalCode,
-      streetAddress: contactPageData.addressSection?.streetAddress,
-    },
+    // address: {
+    //   "@type": "PostalAddress",
+    //   addressLocality: contactPageData.addressSection?.locality,
+    //   addressRegion: contactPageData.addressSection?.region,
+    //   addressCountry: contactPageData.addressSection?.country,
+    //   postalCode: contactPageData.addressSection?.postalCode,
+    //   streetAddress: contactPageData.addressSection?.streetAddress,
+    // },
     hasCredential: credentials,
   };
   return (

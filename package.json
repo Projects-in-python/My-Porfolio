@@ -16,6 +16,7 @@
     "baseui": "^9.65.3",
     "chart.js": "^2.9.3",
     "gh-pages": "^2.1.1",
+    "node": "^26.5.0",
     "node-fetch": "^2.6.0",
     "pdfjs-dist": "^2.12.313",
     "prettier-package-json": "^2.1.3",

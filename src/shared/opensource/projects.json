@@ -1,122 +1,518 @@
 {
   "data": [
     {
-      "id": "R_kgDOJWL0-g",
-      "name": "mdp-diffusion",
-      "createdAt": "2023-04-13T04:18:19Z",
-      "url": "https://github.com/ashutosh1919/mdp-diffusion",
-      "description": "Text-guided image editing by manipulating diffusion path without any training.",
+      "id": "wowcare",
+      "name": "WowCare",
+      "createdAt": "2022-08-01T00:00:00Z",
+      "url": "https://play.google.com/store/apps/details?id=com.wiseowlworld.schoolerpwowapp&pcampaignid=web_share",
+      "description": "🏥 Enterprise childcare management platform with attendance, billing, health records, QR check-in/out, communication, notifications, and offline-first architecture.",
       "isFork": false,
       "languages": [
         {
-          "name": "Python",
-          "iconifyClass": "logos-python"
+          "name": "Flutter",
+          "iconifyClass": "logos-flutter"
         },
         {
-          "name": "Shell",
-          "iconifyClass": "simple-icons:shell"
+          "name": "Dart",
+          "iconifyClass": "logos-dart"
         },
         {
-          "name": "Jupyter Notebook",
-          "iconifyClass": "logos-jupyter"
+          "name": "Bloc",
+          "iconifyClass": "mdi:state-machine"
+        },
+        {
+          "name": "Cubit",
+          "iconifyClass": "mdi:alpha-c-circle"
+        },
+        {
+          "name": "Clean Architecture",
+          "iconifyClass": "mdi:layers-triple"
+        },
+        {
+          "name": "MVVM",
+          "iconifyClass": "mdi:view-dashboard-outline"
+        },
+        {
+          "name": "SOLID",
+          "iconifyClass": "mdi:cube-outline"
+        },
+        {
+          "name": "QR Scanner",
+          "iconifyClass": "mdi:qrcode"
+        },
+        {
+          "name": "Firebase",
+          "iconifyClass": "logos-firebase"
+        },
+        {
+          "name": "Isar",
+          "iconifyClass": "mdi:database-outline"
+        },
+        {
+          "name": "Secure Storage",
+          "iconifyClass": "mdi:shield-lock-outline"
+        },
+        {
+          "name": "GitHub Actions",
+          "iconifyClass": "logos-github-icon"
         }
       ]
     },
     {
-      "id": "R_kgDOG_vYHA",
-      "name": "explainable-cnn",
-      "createdAt": "2022-03-13T20:41:33Z",
-      "url": "https://github.com/ashutosh1919/explainable-cnn",
-      "description": "📦 PyTorch based visualization package for generating layer-wise explanations for CNNs.",
+      "id": "jsw-vessel",
+      "name": "JSW Vessel Management System",
+      "createdAt": "2024-01-01T00:00:00Z",
+      "url": "https://steelneo.com/",
+      "description": "🚢 Enterprise logistics platform for vessel tracking, shipment planning, GPS monitoring, and offline synchronization.",
       "isFork": false,
       "languages": [
         {
-          "name": "Python",
-          "iconifyClass": "logos-python"
+          "name": "Flutter",
+          "iconifyClass": "logos-flutter"
+        },
+        {
+          "name": "Dart",
+          "iconifyClass": "logos-dart"
+        },
+        {
+          "name": "Bloc",
+          "iconifyClass": "mdi:state-machine"
+        },
+        {
+          "name": "REST API",
+          "iconifyClass": "mdi:api"
+        },
+        {
+          "name": "WebSockets",
+          "iconifyClass": "mdi:web"
+        },
+        {
+          "name": "Google Maps",
+          "iconifyClass": "logos-google-maps"
+        },
+        {
+          "name": "GPS",
+          "iconifyClass": "mdi:crosshairs-gps"
+        },
+        {
+          "name": "Isar",
+          "iconifyClass": "mdi:database-outline"
+        },
+        {
+          "name": "Offline Sync",
+          "iconifyClass": "mdi:sync"
+        },
+        {
+          "name": "JWT",
+          "iconifyClass": "mdi:key-chain-variant"
+        },
+        {
+          "name": "Clean Architecture",
+          "iconifyClass": "mdi:layers-triple"
         }
       ]
     },
     {
-      "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
-      "name": "masterPortfolio",
-      "createdAt": "2020-03-06T16:26:54Z",
-      "url": "https://github.com/ashutosh1919/masterPortfolio",
-      "description": "🔥 The Complete Customizable Software Developer Portfolio Template which lets you showcase your work and provides each and every detail about you as Software Developer.",
+      "id": "wowinventory",
+      "name": "WowInventory",
+      "createdAt": "2023-08-01T00:00:00Z",
+      "url": "https://play.google.com/store/apps/details?id=com.wiseowlworld.wowinventory&pcampaignid=web_share",
+      "description": "📦 Enterprise inventory management system with stock tracking, warehouse management, barcode scanning, and offline synchronization.",
       "isFork": false,
       "languages": [
         {
-          "name": "HTML",
-          "iconifyClass": "logos-html-5"
+          "name": "Flutter",
+          "iconifyClass": "logos-flutter"
         },
         {
-          "name": "CSS",
-          "iconifyClass": "logos-css-3"
+          "name": "Dart",
+          "iconifyClass": "logos-dart"
         },
         {
-          "name": "JavaScript",
-          "iconifyClass": "logos-javascript"
+          "name": "Bloc",
+          "iconifyClass": "mdi:state-machine"
         },
         {
-          "name": "Dockerfile",
-          "iconifyClass": "simple-icons:docker"
+          "name": "Cubit",
+          "iconifyClass": "mdi:alpha-c-circle"
+        },
+        {
+          "name": "Firebase",
+          "iconifyClass": "logos-firebase"
+        },
+        {
+          "name": "Firestore",
+          "iconifyClass": "logos-firebase"
+        },
+        {
+          "name": "REST API",
+          "iconifyClass": "mdi:api"
+        },
+        {
+          "name": "Isar",
+          "iconifyClass": "mdi:database-outline"
+        },
+        {
+          "name": "Offline-first",
+          "iconifyClass": "mdi:sync"
+        },
+        {
+          "name": "Clean Architecture",
+          "iconifyClass": "mdi:layers-triple"
         }
       ]
     },
     {
-      "id": "R_kgDOG0_8uQ",
-      "name": "react-awesome-shapes",
-      "createdAt": "2022-02-11T14:50:20Z",
-      "url": "https://github.com/ashutosh1919/react-awesome-shapes",
-      "description": "🌀 Insert Awesome Shapes into Your React Site with Ease.",
+      "id": "pathpulse",
+      "name": "PathPulse",
+      "createdAt": "2024-10-01T00:00:00Z",
+      "url": "https://play.google.com/store/apps/dev?id=7073243933441972088&hl=en",
+      "description": "🗺️ Intelligent route planning and field workforce management application with real-time GPS tracking, live location updates, route optimization, attendance monitoring, geofencing, offline synchronization, and analytics dashboard.",
       "isFork": false,
       "languages": [
         {
-          "name": "HTML",
-          "iconifyClass": "logos-html-5"
+          "name": "Flutter",
+          "iconifyClass": "logos-flutter"
         },
         {
-          "name": "CSS",
-          "iconifyClass": "logos-css-3"
+          "name": "Dart",
+          "iconifyClass": "logos-dart"
         },
         {
-          "name": "Shell",
-          "iconifyClass": "simple-icons:shell"
+          "name": "Bloc",
+          "iconifyClass": "mdi:state-machine"
         },
         {
-          "name": "JavaScript",
-          "iconifyClass": "logos-javascript"
+          "name": "Google Maps",
+          "iconifyClass": "logos-google-maps"
+        },
+        {
+          "name": "GPS",
+          "iconifyClass": "mdi:crosshairs-gps"
+        },
+        {
+          "name": "REST API",
+          "iconifyClass": "mdi:api"
+        },
+        {
+          "name": "WebSockets",
+          "iconifyClass": "mdi:web"
+        },
+        {
+          "name": "Firebase",
+          "iconifyClass": "logos-firebase"
+        },
+        {
+          "name": "Isar",
+          "iconifyClass": "mdi:database-outline"
+        },
+        {
+          "name": "Offline-first",
+          "iconifyClass": "mdi:sync"
+        },
+        {
+          "name": "Clean Architecture",
+          "iconifyClass": "mdi:layers-triple"
         }
       ]
     },
     {
-      "id": "R_kgDOGcPKSQ",
-      "name": "neuro-symbolic-sudoku-solver",
-      "createdAt": "2021-11-26T17:56:07Z",
-      "url": "https://github.com/ashutosh1919/neuro-symbolic-sudoku-solver",
-      "description": "⚙️ Solving sudoku using Deep Reinforcement learning in combination with powerful symbolic representations.",
+      "id": "jalkrishi-ai",
+      "name": "JalKrishi AI",
+      "createdAt": "2025-02-01T00:00:00Z",
+      "url": "https://drive.google.com/file/d/1hfQMSmA1geRfKmif5sqL1SSBtK6Hcy_Q/view?usp=sharing",
+      "description": "🌾 AI-powered smart agriculture platform providing crop recommendations, irrigation planning, weather intelligence, soil analysis, multilingual AI assistant, and farmer advisory services using modern Flutter architecture.",
       "isFork": false,
       "languages": [
         {
-          "name": "Python",
-          "iconifyClass": "logos-python"
+          "name": "Flutter",
+          "iconifyClass": "logos-flutter"
+        },
+        {
+          "name": "Dart",
+          "iconifyClass": "logos-dart"
+        },
+        {
+          "name": "AI",
+          "iconifyClass": "mdi:brain"
+        },
+        {
+          "name": "REST API",
+          "iconifyClass": "mdi:api"
+        },
+        {
+          "name": "Firebase",
+          "iconifyClass": "logos-firebase"
+        },
+        {
+          "name": "Riverpod",
+          "iconifyClass": "mdi:river"
+        },
+        {
+          "name": "Bloc",
+          "iconifyClass": "simple-icons:bloc"
+        },
+        {
+          "name": "Google Maps",
+          "iconifyClass": "logos-google-maps"
+        },
+        {
+          "name": "Weather API",
+          "iconifyClass": "mdi:weather-partly-cloudy"
+        },
+        {
+          "name": "Isar",
+          "iconifyClass": "mdi:database-outline"
+        },
+        {
+          "name": "Clean Architecture",
+          "iconifyClass": "mdi:layers-triple"
         }
       ]
     },
     {
-      "id": "MDEwOlJlcG9zaXRvcnkzMjU5NDM1MTE=",
-      "name": "react-liquidswipe",
-      "createdAt": "2021-01-01T08:31:51Z",
-      "url": "https://github.com/ashutosh1919/react-liquidswipe",
-      "description": "🚀 Smooth Liquid Swipe Animation to transition between different components.",
+      "id": "pinewraps",
+      "name": "PineWraps",
+      "createdAt": "2024-04-01T00:00:00Z",
+      "url": "https://play.google.com/store/apps/details?id=com.pinewraps.app&pcampaignid=web_share",
+      "description": "🛍️ Cross-platform e-commerce application featuring product catalog, wishlist, shopping cart, secure checkout, payment integration, order tracking, push notifications, and high-performance Flutter architecture.",
       "isFork": false,
       "languages": [
         {
-          "name": "JavaScript",
-          "iconifyClass": "logos-javascript"
+          "name": "Flutter",
+          "iconifyClass": "logos-flutter"
         },
         {
-          "name": "CSS",
-          "iconifyClass": "logos-css-3"
+          "name": "Dart",
+          "iconifyClass": "logos-dart"
+        },
+        {
+          "name": "Provider",
+          "iconifyClass": "mdi:package-variant"
+        },
+        {
+          "name": "Firebase",
+          "iconifyClass": "logos-firebase"
+        },
+        {
+          "name": "REST API",
+          "iconifyClass": "mdi:api"
+        },
+        {
+          "name": "Payment Gateway",
+          "iconifyClass": "mdi:credit-card-outline"
+        },
+        {
+          "name": "Isar",
+          "iconifyClass": "mdi:database-outline"
+        },
+        {
+          "name": "Clean Architecture",
+          "iconifyClass": "mdi:layers-triple"
+        }
+      ]
+    },
+    {
+      "id": "24ryde-user",
+      "name": "24Ryde Rider",
+      "createdAt": "2024-06-01T00:00:00Z",
+      "url": "https://drive.google.com/file/d/1hp7LIYi5XNg8Pr67QzINtFL_1PJo9Mnh/view",
+      "description": "🚖 Ride-hailing application for passengers with real-time driver tracking, ride booking, fare estimation, live trip status, secure payments, trip history, push notifications, and Google Maps integration.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Flutter",
+          "iconifyClass": "logos-flutter"
+        },
+        {
+          "name": "Dart",
+          "iconifyClass": "logos-dart"
+        },
+        {
+          "name": "Bloc",
+          "iconifyClass": "mdi:state-machine"
+        },
+        {
+          "name": "Firebase",
+          "iconifyClass": "logos-firebase"
+        },
+        {
+          "name": "Google Maps",
+          "iconifyClass": "logos-google-maps"
+        },
+        {
+          "name": "GPS",
+          "iconifyClass": "mdi:crosshairs-gps"
+        },
+        {
+          "name": "REST API",
+          "iconifyClass": "mdi:api"
+        },
+        {
+          "name": "WebSockets",
+          "iconifyClass": "mdi:web"
+        },
+        {
+          "name": "Payment Gateway",
+          "iconifyClass": "mdi:credit-card-outline"
+        },
+        {
+          "name": "Clean Architecture",
+          "iconifyClass": "mdi:layers-triple"
+        }
+      ]
+    },
+    {
+      "id": "24ryde-driver",
+      "name": "24Ryde Driver",
+      "createdAt": "2024-06-01T00:00:00Z",
+      "url": "https://drive.google.com/file/d/1Sjo4XiZZvp_M2l05dHSh-y-i0D7mYQoN/view",
+      "description": "🚗 Driver companion application with ride requests, navigation, earnings dashboard, trip management, live location sharing, availability controls, notifications, and real-time ride synchronization.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Flutter",
+          "iconifyClass": "logos-flutter"
+        },
+        {
+          "name": "Dart",
+          "iconifyClass": "logos-dart"
+        },
+        {
+          "name": "Bloc",
+          "iconifyClass": "mdi:state-machine"
+        },
+        {
+          "name": "Firebase",
+          "iconifyClass": "logos-firebase"
+        },
+        {
+          "name": "Google Maps",
+          "iconifyClass": "logos-google-maps"
+        },
+        {
+          "name": "GPS",
+          "iconifyClass": "mdi:crosshairs-gps"
+        },
+        {
+          "name": "REST API",
+          "iconifyClass": "mdi:api"
+        },
+        {
+          "name": "WebSockets",
+          "iconifyClass": "mdi:web"
+        },
+        {
+          "name": "Push Notifications",
+          "iconifyClass": "mdi:bell-badge-outline"
+        },
+        {
+          "name": "Clean Architecture",
+          "iconifyClass": "mdi:layers-triple"
+        }
+      ]
+    },
+    {
+      "id": "paymitra",
+      "name": "Paymitra",
+      "createdAt": "2023-06-01T00:00:00Z",
+      "url": "",
+      "description": "💳 FinTech application supporting wallet management, bill payments, recharge services, secure authentication, and payment gateway integration.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Flutter",
+          "iconifyClass": "logos-flutter"
+        },
+        {
+          "name": "Dart",
+          "iconifyClass": "logos-dart"
+        },
+        {
+          "name": "Bloc",
+          "iconifyClass": "mdi:state-machine"
+        },
+        {
+          "name": "Firebase",
+          "iconifyClass": "logos-firebase"
+        },
+        {
+          "name": "REST API",
+          "iconifyClass": "mdi:api"
+        },
+        {
+          "name": "Dio",
+          "iconifyClass": "mdi:web"
+        },
+        {
+          "name": "Razorpay",
+          "iconifyClass": "mdi:cash-fast"
+        },
+        {
+          "name": "JWT",
+          "iconifyClass": "mdi:key-chain-variant"
+        },
+        {
+          "name": "OAuth",
+          "iconifyClass": "mdi:shield-account"
+        },
+        {
+          "name": "Secure Storage",
+          "iconifyClass": "mdi:shield-lock-outline"
+        },
+        {
+          "name": "Isar",
+          "iconifyClass": "mdi:database-outline"
+        },
+        {
+          "name": "Clean Architecture",
+          "iconifyClass": "mdi:layers-triple"
+        }
+      ]
+    },
+    {
+      "id": "steelbazaar",
+      "name": "SteelBazaar",
+      "createdAt": "2023-01-01T00:00:00Z",
+      "url": "",
+      "description": "🏗️ Enterprise B2B marketplace for steel trading with inventory management, quotation workflows, order management, supplier network, secure authentication, real-time pricing, and scalable architecture.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Flutter",
+          "iconifyClass": "logos-flutter"
+        },
+        {
+          "name": "Dart",
+          "iconifyClass": "logos-dart"
+        },
+        {
+          "name": "Provider",
+          "iconifyClass": "mdi:package-variant"
+        },
+        {
+          "name": "REST API",
+          "iconifyClass": "mdi:api"
+        },
+        {
+          "name": "GraphQL",
+          "iconifyClass": "logos-graphql"
+        },
+        {
+          "name": "Firebase",
+          "iconifyClass": "logos-firebase"
+        },
+        {
+          "name": "Isar",
+          "iconifyClass": "mdi:database-outline"
+        },
+        {
+          "name": "SQLite",
+          "iconifyClass": "simple-icons:sqlite"
+        },
+        {
+          "name": "Clean Architecture",
+          "iconifyClass": "mdi:layers-triple"
         }
       ]
     }

@@ -1,98 +1,88 @@
 {
   "data": [
     {
-      "login": "openai",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/14957082?v=4",
+      "login": "flutter",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/14101776?v=4",
       "__typename": "Organization"
     },
     {
-      "login": "sympy",
-      "avatarUrl": "https://avatars1.githubusercontent.com/u/260832?v=4",
+      "login": "dart-lang",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1609975?v=4",
       "__typename": "Organization"
     },
     {
-      "login": "scikit-learn",
-      "avatarUrl": "https://avatars2.githubusercontent.com/u/365630?v=4",
-      "__typename": "Organization"
-    },
-    {
-      "login": "python",
-      "avatarUrl": "https://avatars3.githubusercontent.com/u/1525981?v=4",
-      "__typename": "Organization"
-    },
-    {
-      "login": "facebook",
-      "avatarUrl": "https://avatars3.githubusercontent.com/u/69631?v=4",
-      "__typename": "Organization"
-    },
-    {
-      "login": "ReactTraining",
-      "avatarUrl": "https://avatars1.githubusercontent.com/u/11823761?v=4",
-      "__typename": "Organization"
-    },
-    {
-      "login": "keras-team",
-      "avatarUrl": "https://avatars0.githubusercontent.com/u/34455048?v=4",
-      "__typename": "Organization"
-    },
-    {
-      "login": "fossasia",
-      "avatarUrl": "https://avatars3.githubusercontent.com/u/6295529?v=4",
-      "__typename": "Organization"
-    },
-    {
-      "login": "gatsbyjs",
-      "avatarUrl": "https://avatars1.githubusercontent.com/u/12551863?v=4",
-      "__typename": "Organization"
-    },
-    {
-      "login": "tensorflow",
-      "avatarUrl": "https://avatars1.githubusercontent.com/u/15658638?v=4",
-      "__typename": "Organization"
-    },
-    {
-      "login": "kiwix",
-      "avatarUrl": "https://avatars3.githubusercontent.com/u/826219?v=4",
-      "__typename": "Organization"
-    },
-    {
-      "login": "uber",
-      "avatarUrl": "https://avatars3.githubusercontent.com/u/538264?v=4",
-      "__typename": "Organization"
-    },
-    {
-      "login": "netrack",
-      "avatarUrl": "https://avatars2.githubusercontent.com/u/10380772?v=4",
-      "__typename": "Organization"
-    },
-    {
-      "login": "DataTurks-Engg",
-      "avatarUrl": "https://avatars1.githubusercontent.com/u/39724935?v=4",
+      "login": "firebase",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1335026?v=4",
       "__typename": "Organization"
     },
     {
       "login": "google",
-      "avatarUrl": "https://avatars1.githubusercontent.com/u/1342004?v=4",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1342004?v=4",
       "__typename": "Organization"
     },
     {
-      "login": "apollographql",
-      "avatarUrl": "https://avatars0.githubusercontent.com/u/17189275?v=4",
+      "login": "android",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/32689599?v=4",
       "__typename": "Organization"
     },
     {
-      "login": "NVlabs",
-      "avatarUrl": "https://avatars3.githubusercontent.com/u/2695301?v=4",
+      "login": "apple",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/10639145?v=4",
       "__typename": "Organization"
     },
     {
-      "login": "dsc-iiitdmk",
-      "avatarUrl": "https://avatars0.githubusercontent.com/u/53558593?v=4",
+      "login": "github",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/9919?v=4",
       "__typename": "Organization"
     },
     {
-      "login": "firecampapp",
-      "avatarUrl": "https://avatars3.githubusercontent.com/u/45025286?v=4",
+      "login": "docker",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/5429470?v=4",
+      "__typename": "Organization"
+    },
+    {
+      "login": "Fastlane",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/8526685?v=4",
+      "__typename": "Organization"
+    },
+    {
+      "login": "Google Maps",
+      "avatarUrl": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Google_Maps_icon_%282020%29.svg",
+      "__typename": "Organization"
+    },
+    {
+      "login": "git",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/18133?v=4",
+      "__typename": "Organization"
+    },
+    {
+      "login": "razorpay",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/7713209?v=4",
+      "__typename": "Organization"
+    },
+    {
+      "login": "OpenAI",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/14957082?v=4",
+      "__typename": "Organization"
+    },
+    {
+      "login": "Claude",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/126759922?v=4",
+      "__typename": "Organization"
+    },
+    {
+      "login": "Codex",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/14957082?v=4",
+      "__typename": "Organization"
+    },
+    {
+      "login": "GitHub Copilot",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/9919?v=4",
+      "__typename": "Organization"
+    },
+    {
+      "login": "Cursor",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/139895814?v=4",
       "__typename": "Organization"
     }
   ]

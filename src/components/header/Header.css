@@ -5,6 +5,8 @@
   max-width: 90%;
   padding: 20px 10px;
   margin: 0px auto;
+  position: relative;
+  z-index: 1000;
 }
 
 .header ul {
@@ -14,6 +16,7 @@
   overflow: hidden;
   /* background-color: #fff; */
 }
+
 .grey-color {
   color: #868e96;
 }
@@ -38,6 +41,7 @@
   margin-top: 10px;
   line-height: normal;
 }
+
 .header .logo-name {
   font-family: "Agustina Regular";
   font-weight: bold;
@@ -129,14 +133,17 @@
   .header li {
     float: left;
   }
+
   .header {
     display: flex;
     align-items: center;
     justify-content: space-between;
   }
+
   .header .menu {
     max-height: none;
   }
+
   .header .menu-icon {
     display: none;
   }
