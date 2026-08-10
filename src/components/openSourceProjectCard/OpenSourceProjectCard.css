@@ -1,0 +1,146 @@
+.os-project-card {
+  border-radius: 12px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  transition: all 0.3s ease;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  backdrop-filter: blur(10px);
+}
+
+.os-project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px -15px rgba(0, 0, 0, 0.2);
+}
+
+.os-project-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 16px;
+}
+
+.os-project-icon {
+  font-size: 2.5rem;
+  transition: transform 0.3s ease;
+}
+
+.os-project-card:hover .os-project-icon {
+  transform: scale(1.1) rotate(5deg);
+}
+
+.os-project-status {
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 4px 10px;
+  border-radius: 20px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.os-project-category {
+  font-size: 0.85rem;
+  font-weight: 500;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.os-project-title {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 8px;
+  margin-top: 0;
+}
+
+.os-project-highlight {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 16px;
+  line-height: 1.4;
+}
+
+.os-project-description {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin-bottom: 24px;
+}
+
+.os-project-technologies {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 24px;
+}
+
+.os-tech-chip {
+  font-size: 0.75rem;
+  font-weight: 500;
+  padding: 4px 10px;
+  border-radius: 6px;
+  transition: transform 0.2s ease;
+}
+
+.os-tech-chip:hover {
+  transform: translateY(-2px);
+}
+
+.os-project-features {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 8px;
+  margin-bottom: 24px;
+  flex-grow: 1;
+}
+
+.os-feature-item {
+  font-size: 0.85rem;
+  display: flex;
+  align-items: center;
+}
+
+.os-feature-check {
+  margin-right: 6px;
+  font-weight: bold;
+}
+
+.os-project-footer {
+  display: flex;
+  gap: 12px;
+  padding-top: 20px;
+  margin-top: auto;
+}
+
+.os-project-btn {
+  padding: 8px 16px;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-decoration: none;
+  text-align: center;
+  transition: all 0.2s ease;
+  flex: 1;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.os-project-btn:hover:not(.disabled) {
+  opacity: 0.9;
+  transform: translateY(-2px);
+}
+
+.os-project-btn.disabled {
+  cursor: not-allowed;
+}
+
+@media (max-width: 768px) {
+  .os-project-features {
+    grid-template-columns: 1fr;
+  }
+
+  .os-project-footer {
+    flex-direction: column;
+  }
+}

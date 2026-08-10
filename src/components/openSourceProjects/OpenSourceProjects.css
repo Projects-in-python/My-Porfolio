@@ -1,0 +1,52 @@
+.os-projects-main-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  padding: 0px 20px;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.os-projects-header-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.os-projects-header {
+  font-size: 56px;
+  font-family: "Google Sans Regular";
+  text-align: center;
+}
+
+.os-projects-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 32px;
+  width: 100%;
+}
+
+/* Make 24Ryde (the first project) span two columns if it's featured, but user requested consistent layout and said "choose the layout that best fits". 
+A 2-column grid is perfect for 2 projects. */
+
+@media (max-width: 1024px) {
+  .os-projects-grid {
+    gap: 24px;
+  }
+}
+
+@media (max-width: 768px) {
+  .os-projects-header {
+    font-size: 30px;
+  }
+  .os-projects-grid {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+}

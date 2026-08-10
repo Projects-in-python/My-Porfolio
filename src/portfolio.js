@@ -45,7 +45,7 @@ const socialMediaLinks = [
   },
   {
     name: "YouTube",
-    link: "https://www.youtube.com/@CodeMaking05",
+    link: "https://www.youtube.com/@codemaking",
     fontAwesomeIcon: "fa-youtube", // Reference https://fontawesome.com/icons/youtube?style=brands
     backgroundColor: "#FF0000", // Reference https://simpleicons.org/?q=youtube
   },
@@ -271,10 +271,11 @@ const skills = {
       title: "Flutter Automation & Testing",
       fileName: "",
       skills: [
-        "⚡ Automating Flutter application testing using Unit, Widget, Integration, and End-to-End tests",
-        "⚡ Managing Firebase App Distribution, Crashlytics, Analytics, Remote Config, and Performance Monitoring",
-        "⚡ Performing cross-platform UI automation using Appium and Firebase Test Lab",
-        "⚡ Automating code generation, localization, asset management, and release versioning with Flutter tooling",
+        "⚡ Building automated test suites for Flutter applications using Unit, Widget, Integration, and End-to-End testing",
+        "⚡ Implementing Firebase App Distribution, Crashlytics, Analytics, Remote Config, and Performance Monitoring for reliable app delivery",
+        "⚡ Performing cross-platform UI and device testing using Appium and Firebase Test Lab",
+        "⚡ Automating code generation, localization, asset management, versioning, and release workflows using Flutter tooling",
+        "⚡ Integrating CI/CD pipelines with Fastlane and Codemagic to automate testing, builds, and production releases",
       ],
       softwareSkills: [
         {
@@ -292,13 +293,6 @@ const skills = {
           },
         },
         {
-          skillName: "Appium",
-          fontAwesomeClassname: "simple-icons:appium",
-          style: {
-            color: "#662D91",
-          },
-        },
-        {
           skillName: "Fastlane",
           fontAwesomeClassname: "simple-icons:fastlane",
           style: {
@@ -310,13 +304,6 @@ const skills = {
           fontAwesomeClassname: "simple-icons:codemagic",
           style: {
             color: "#F45D48",
-          },
-        },
-        {
-          skillName: "JUnit",
-          fontAwesomeClassname: "logos:java",
-          style: {
-            color: "#E76F00",
           },
         },
       ],

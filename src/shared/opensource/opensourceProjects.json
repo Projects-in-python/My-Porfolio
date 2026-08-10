@@ -1,0 +1,85 @@
+{
+  "data": [
+    {
+      "id": "24ryde-user",
+      "title": "24Ryde User App",
+      "icon": "🚖",
+      "category": "Open Source · Ride Hailing · Rider",
+      "highlight": "A Flutter-based rider application for the 24Ryde open-source mobility platform.",
+      "description": "The user-facing ride-hailing application that enables riders to discover rides, manage trips, interact with maps and experience the 24Ryde mobility ecosystem.",
+      "technologies": [
+        "Flutter",
+        "Dart",
+        "Firebase",
+        "Google Maps",
+        "Clean Architecture",
+        "REST APIs"
+      ],
+      "features": [
+        "Ride Booking",
+        "Real-time Location",
+        "Maps & Navigation",
+        "Ride Management",
+        "User Experience",
+        "Scalable Architecture"
+      ],
+      "github": "https://github.com/Code-Making/24Ryde-User-App",
+      "demo": "",
+      "status": "Open Source"
+    },
+    {
+      "id": "24ryde-driver",
+      "title": "24Ryde Driver App",
+      "icon": "🚗",
+      "category": "Open Source · Ride Hailing · Driver",
+      "highlight": "A Flutter-based driver application powering the driver side of the 24Ryde platform.",
+      "description": "The driver-facing application for managing ride requests, navigation, trip status and real-time driver operations within the 24Ryde ecosystem.",
+      "technologies": [
+        "Flutter",
+        "Dart",
+        "Firebase",
+        "Google Maps",
+        "Clean Architecture",
+        "REST APIs"
+      ],
+      "features": [
+        "Driver Registration",
+        "Ride Requests",
+        "Real-time Location",
+        "Maps & Navigation",
+        "Trip Management",
+        "Driver Operations"
+      ],
+      "github": "https://github.com/Code-Making/24Ryder-Diver-App",
+      "demo": "",
+      "status": "Open Source"
+    },
+    {
+      "id": "jalkrishi-ai",
+      "title": "JalKrishi AI",
+      "icon": "🌱",
+      "category": "AI · AgriTech · Product Design",
+      "highlight": "Designing the future of smart agriculture with AI.",
+      "description": "An AI-powered agriculture platform designed to help farmers make smarter, data-driven decisions around crops, irrigation, weather, soil health and market insights.",
+      "technologies": [
+        "AI",
+        "Product Design",
+        "Figma",
+        "Mobile UI",
+        "Design Systems",
+        "AgriTech"
+      ],
+      "features": [
+        "AI Crop Health",
+        "Smart Irrigation",
+        "Weather Forecasting",
+        "Soil Monitoring",
+        "Pest & Disease Detection",
+        "Market Insights"
+      ],
+      "github": "",
+      "demo": "",
+      "status": "Design Concept"
+    }
+  ]
+}
