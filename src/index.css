@@ -65,7 +65,10 @@ body {
 }
 
 :root {
-  --scrollbar-color: white; /* it will change when the page loads*/
+  --scrollbar-color: var(
+    --accent,
+    #0e6ba8
+  ); /* overridden once the page loads */
 }
 * {
   scrollbar-width: thin;

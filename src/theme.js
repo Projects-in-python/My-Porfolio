@@ -195,4 +195,28 @@ export const materialTealTheme = {
   splashBg: "#05505E",
 };
 
-export const chosenTheme = blueTheme;
+// Dark counterpart to blueTheme: a deep navy-black ground with a vivid sky-blue
+// accent, so the site keeps its blue identity when the lights go out.
+// `isDark` lets global.js pick the right borders/shadows without every other
+// theme needing new tokens.
+export const darkTheme = {
+  isDark: true,
+  body: "#0B1120",
+  text: "#E8EEF9",
+  expTxtColor: "#E8EEF9",
+  highlight: "#172135",
+  dark: "#33496E",
+  secondaryText: "#94A7C4",
+  imageHighlight: "#38BDF8",
+  compImgHighlight: "#1E293F",
+  jacketColor: "#2B4C8C",
+  headerColor: "#38BDF829",
+  splashBg: "#0B1120",
+  // body === splashBg here, so the splash logo needs its own ink colour.
+  splashFg: "#E8EEF9",
+  splashAccent: "#38BDF8",
+};
+
+// The light/dark pair the toggle switches between.
+export const lightTheme = blueTheme;
+export const chosenTheme = lightTheme;

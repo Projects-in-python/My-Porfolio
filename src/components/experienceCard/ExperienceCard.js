@@ -52,7 +52,10 @@ class ExperienceCard extends Component {
             ></div>
             <div
               className="experience-card"
-              style={{ background: `${theme.body}` }}
+              // baseui's Accordion content sets its own dark colour, so the
+              // card has to state the themed one explicitly or inherited text
+              // renders black on the dark background.
+              style={{ background: `${theme.body}`, color: theme.text }}
             >
               <div
                 style={{
@@ -105,8 +108,12 @@ class ExperienceCard extends Component {
                   marginTop: 20,
                 }}
               >
-                <div className="repo-description" />
-                {experience["description"]}
+                <p
+                  className="experience-card-description"
+                  style={{ color: theme.secondaryText }}
+                >
+                  {experience["description"]}
+                </p>
               </div>
             </div>
           </div>

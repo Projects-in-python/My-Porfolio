@@ -10,12 +10,14 @@ import { competitiveSites } from "../../portfolio";
 import { certifications } from "../../portfolio";
 import "./EducationComponent.css";
 import { Fade } from "react-reveal";
+import AnimatedBackground from "../../components/animatedBackground/AnimatedBackground";
 
 class Education extends Component {
   render() {
     const theme = this.props.theme;
     return (
-      <div className="education-main">
+      <div className="education-main anim-bg-host">
+        <AnimatedBackground variant="education" theme={theme} />
         <Header theme={this.props.theme} />
         <div className="basic-education">
           <Fade bottom duration={2000} distance="40px">

@@ -15,12 +15,14 @@ import {
 import ProjectsData from "../../shared/opensource/projects.json";
 import "./Projects.css";
 import ProjectsImg from "./ProjectsImg";
+import AnimatedBackground from "../../components/animatedBackground/AnimatedBackground";
 
 class Projects extends Component {
   render() {
     const theme = this.props.theme;
     return (
-      <div className="projects-main">
+      <div className="projects-main anim-bg-host">
+        <AnimatedBackground variant="projects" theme={theme} />
         <Header theme={theme} />
         <div className="basic-projects">
           <Fade bottom duration={2000} distance="40px">

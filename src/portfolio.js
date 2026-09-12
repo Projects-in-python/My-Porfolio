@@ -13,7 +13,7 @@ const seo = {
   og: {
     title: "Uttam Singh Portfolio",
     type: "website",
-    url: "https://github.com/Supercool-Coder",
+    url: "https://github.com/Uttammmmmmm",
   },
 };
 
@@ -24,18 +24,18 @@ const greeting = {
   // nickname: "layman_brother",
   subTitle:
     "Senior Flutter Developer — Mobile Application Architect — Team Lead. Experienced in enterprise mobile application development, Clean Architecture, MVVM, and SOLID Principles.",
-  resumeLink:
-    "https://drive.google.com/file/d/1WnmWohnMGH9RyQoQAaii4Ayq-PsgvkWn/view?usp=sharing",
-  portfolio_repository: "",
-  githubProfile: "https://github.com/Supercool-Coder",
+  resumeLink: "/resume",
+  portfolio_repository: "https://github.com/Code-Making/Uttam-Singh-Portfolio",
+  githubProfile: "https://github.com/Uttammmmmmm",
 };
 
 const socialMediaLinks = [
   {
     name: "Github",
-    link: "https://github.com/Supercool-Coder",
+    link: "https://github.com/Uttammmmmmm",
     fontAwesomeIcon: "fa-github", // Reference https://fontawesome.com/icons/github?style=brands
     backgroundColor: "#181717", // Reference https://simpleicons.org/?q=github
+    darkBackgroundColor: "#4A5568", // #181717 disappears on a dark page
   },
   {
     name: "LinkedIn",
@@ -60,6 +60,7 @@ const socialMediaLinks = [
     link: "https://x.com/uttampbh123",
     fontAwesomeIcon: "fa-x-twitter", // Reference https://fontawesome.com/icons/x-twitter?f=brands&s=solid
     backgroundColor: "#000000", // Reference https://simpleicons.org/?q=x
+    darkBackgroundColor: "#3F4654", // pure black disappears on a dark page
   },
   // {
   //   name: "Facebook",
@@ -653,11 +654,59 @@ const experience = {
   ],
 };
 
+// Open Source Page
+const openSourceHeader = {
+  title: "Open Source",
+  description:
+    "I build and maintain open source tooling for the Flutter ecosystem, and release production-grade applications under permissive licenses. Everything below is live \u2014 package statistics are pulled straight from the pub.dev API each time this page loads.",
+};
+
+// Packages published by me on pub.dev. Live stats (version, likes, pub points,
+// downloads) are fetched at runtime from the pub.dev API; the `fallback` values
+// are only rendered if that request fails or the visitor is offline.
+const pubDevPackages = {
+  title: "Published Packages",
+  subtitle:
+    "Dart & Flutter packages I have authored and published to pub.dev, the official package registry.",
+  profileLink: "https://pub.dev/packages?q=flutter_devops",
+  packages: [
+    {
+      name: "flutter_devops",
+      icon: "\ud83d\ude80",
+      category: "Dart CLI \u00b7 DevOps Tooling",
+      tagline: "Enterprise Flutter DevOps Toolkit",
+      description:
+        "A command line toolkit that automates the parts of Flutter delivery teams usually wire together by hand: CI/CD pipelines, multi-flavour environment management, architecture audits and signed release automation for every Flutter target.",
+      pubUrl: "https://pub.dev/packages/flutter_devops",
+      repository: "https://github.com/Code-Making/flutter_devops",
+      docsUrl: "https://pub.dev/documentation/flutter_devops/latest/",
+      installCommand: "dart pub global activate flutter_devops",
+      highlights: [
+        "CI/CD pipeline generation for GitHub Actions, Fastlane and Codemagic",
+        "Environment & flavour management across dev, staging and production",
+        "Architecture audits that flag Clean Architecture and SOLID violations",
+        "Dependency auditing with outdated and vulnerable package reporting",
+        "One-command signed release automation for Android and iOS",
+      ],
+      platforms: ["Android", "iOS", "Web", "Windows", "macOS", "Linux"],
+      license: "MIT",
+      fallback: {
+        version: "0.1.5",
+        published: "2026-06-20T08:27:53.704605Z",
+        likeCount: 1,
+        grantedPoints: 150,
+        maxPoints: 160,
+        downloadCount30Days: 22,
+      },
+    },
+  ],
+};
+
 // Projects Page
 const projectsHeader = {
   title: "Projects",
   description:
-    "My projects makes use of vast variety of latest technology tools. My best experience is to create Data Science projects and deploy them to web applications using cloud infrastructure.",
+    "Production Flutter applications I have designed, architected and shipped to the App Store and Google Play \u2014 spanning enterprise childcare management, logistics, inventory, fintech and ride hailing. Each one is built on Clean Architecture with an offline-first data layer, and most are live in the hands of real users today.",
   avatar_image_path: "projects_image.svg",
 };
 
@@ -701,27 +750,111 @@ const contactPageData = {
     description:
       "I'm always open to discussing Flutter development, cross-platform mobile applications, software architecture, technical leadership, and exciting collaboration opportunities. Whether you have a project, a job opportunity, or simply want to connect, feel free to reach out. I typically respond within 24 hours.",
   },
+  // Direct, clickable ways to reach me. `value` is what the visitor sees,
+  // `link` is where the card navigates.
+  contactMethods: [
+    {
+      id: "email",
+      title: "Email",
+      value: "uttampbh123@gmail.com",
+      subtitle: "Best for detailed enquiries \u2014 replies within 24 hours",
+      link: "mailto:uttampbh123@gmail.com?subject=Let%27s%20work%20together",
+      iconifyClassname: "mdi:email-outline",
+      color: "#D14836",
+      cta: "Send an email",
+    },
+    {
+      id: "linkedin",
+      title: "LinkedIn",
+      value: "in/uttam-singh-287690199",
+      subtitle: "Professional network, roles and recruiter enquiries",
+      link: "https://www.linkedin.com/in/uttam-singh-287690199/",
+      iconifyClassname: "simple-icons:linkedin",
+      color: "#0077B5",
+      cta: "Connect on LinkedIn",
+      newTab: true,
+    },
+    {
+      id: "github",
+      title: "GitHub",
+      value: "@Uttammmmmmm",
+      subtitle: "My personal repositories, experiments and sample apps",
+      link: "https://github.com/Uttammmmmmm",
+      iconifyClassname: "simple-icons:github",
+      color: "#181717",
+      darkColor: "#C9D4E4",
+      cta: "View my code",
+      newTab: true,
+    },
+    {
+      id: "code-making",
+      title: "Organisation",
+      value: "Code Making",
+      subtitle: "Where flutter_devops and the 24Ryde apps are published",
+      link: "https://github.com/Code-Making",
+      iconifyClassname: "mdi:office-building-outline",
+      color: "#6E5494",
+      darkColor: "#A98BD6",
+      cta: "Visit the org",
+      newTab: true,
+    },
+    {
+      id: "pubdev",
+      title: "pub.dev",
+      value: "flutter_devops",
+      subtitle: "Dart & Flutter packages I publish and maintain",
+      link: "https://pub.dev/packages/flutter_devops",
+      iconifyClassname: "simple-icons:dart",
+      color: "#0175C2",
+      cta: "See my packages",
+      newTab: true,
+    },
+    {
+      id: "youtube",
+      title: "YouTube",
+      value: "@codemaking",
+      subtitle: "Flutter tutorials, architecture deep dives and walkthroughs",
+      link: "https://www.youtube.com/@codemaking",
+      iconifyClassname: "simple-icons:youtube",
+      color: "#FF0000",
+      cta: "Watch on YouTube",
+      newTab: true,
+    },
+    {
+      id: "location",
+      title: "Location",
+      value: "Mumbai, Maharashtra, India",
+      subtitle: "IST (UTC+5:30) \u2014 open to remote and hybrid work",
+      link: "https://maps.google.com/?q=Mumbai,Maharashtra,India",
+      iconifyClassname: "mdi:map-marker-outline",
+      color: "#34A853",
+      cta: "View on Maps",
+      newTab: true,
+    },
+  ],
+  // Short status strip shown above the contact cards.
+  availability: {
+    status: "Available for new opportunities",
+    isAvailable: true,
+    details: [
+      { label: "Response time", value: "Within 24 hours" },
+      {
+        label: "Open to",
+        value: "Full-time \u00b7 Contract \u00b7 Consulting",
+      },
+      {
+        label: "Work mode",
+        value: "Remote \u00b7 Hybrid \u00b7 On-site (Mumbai)",
+      },
+      { label: "Focus", value: "Flutter architecture & team leadership" },
+    ],
+  },
   // blogSection: {
   //   title: "Blogs",
   //   subtitle:
   //     "I like to document some of my experiences in professional career journey as well as some technical knowledge sharing.",
   //   link: "https://blogs.ashutoshhathidara.com/",
   //   avatar_image_path: "blogs_image.svg",
-  // },
-  // addressSection: {
-  //   title: "Address",
-  //   subtitle: "Saratoga Ave, San Jose, CA, USA 95129",
-  //   locality: "San Jose",
-  //   country: "USA",
-  //   region: "California",
-  //   postalCode: "95129",
-  //   streetAddress: "Saratoga Avenue",
-  //   avatar_image_path: "address_image.svg",
-  //   location_map_link: "https://maps.app.goo.gl/NvYZqa34Wye4tpS17",
-  // },
-  // phoneSection: {
-  //   title: "",
-  //   subtitle: "",
   // },
 };
 
@@ -738,5 +871,7 @@ export {
   projectsHeader,
   publicationsHeader,
   publications,
+  openSourceHeader,
+  pubDevPackages,
   contactPageData,
 };

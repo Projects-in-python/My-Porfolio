@@ -74,21 +74,21 @@ export default class FullStackImg extends Component {
           y="433.64069"
           width="230.47032"
           height="9.29316"
-          fill="#fff"
+          fill={theme.compImgHighlight}
         />
         <rect
           x="704.5289"
           y="454.08564"
           width="230.47032"
           height="9.29316"
-          fill="#fff"
+          fill={theme.compImgHighlight}
         />
         <rect
           x="704.5289"
           y="474.53058"
           width="78.06253"
           height="9.29316"
-          fill="#fff"
+          fill={theme.compImgHighlight}
         />
         <circle
           cx="561.33549"
@@ -121,7 +121,7 @@ export default class FullStackImg extends Component {
           y="523.01368"
           width="78.06253"
           height="17.81006"
-          fill="#fff"
+          fill={theme.compImgHighlight}
         />
         <circle
           cx="350"

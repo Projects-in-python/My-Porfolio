@@ -24,10 +24,10 @@
   height: auto;
   border-radius: 50%;
   padding: 10px;
-  border: 1px solid #d9dbdf;
+  border: 1px solid var(--card-border, #d9dbdf);
   /* background-color: #6c63ff; */
   /* background: transparent; */
-  box-shadow: 5px 5px 5px #d9dbdf;
+  box-shadow: 5px 5px 5px var(--card-shadow, #d9dbdf);
 }
 
 .body-header {
@@ -73,12 +73,12 @@
 
 .card-body {
   /* background-color: #00FF00; */
-  border-bottom: 1px solid #d9dbdf;
-  border-left: 1px solid #d9dbdf;
-  border-right: 1px solid #d9dbdf;
+  border-bottom: 1px solid var(--card-border, #d9dbdf);
+  border-left: 1px solid var(--card-border, #d9dbdf);
+  border-right: 1px solid var(--card-border, #d9dbdf);
   border-radius: 7px;
   margin: 10px;
-  box-shadow: 5px 5px 5px #d9dbdf;
+  box-shadow: 5px 5px 5px var(--card-shadow, #d9dbdf);
 }
 
 .visit-btn {

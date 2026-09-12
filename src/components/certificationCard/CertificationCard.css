@@ -4,9 +4,9 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  border: 1px solid #d9dbdf;
+  border: 1px solid var(--card-border, #d9dbdf);
   border-radius: 5px;
-  box-shadow: 5px 5px 5px #d9dbdf;
+  box-shadow: 5px 5px 5px var(--card-shadow, #d9dbdf);
   margin-bottom: 30px;
   flex: 0 0 30%;
 }
@@ -35,7 +35,7 @@
 .cert-body-subtitle {
   font-family: "Google Sans Regular";
   font-size: 18px;
-  color: #808080;
+  color: var(--secondary-text, #808080);
   margin: 10px;
 }
 

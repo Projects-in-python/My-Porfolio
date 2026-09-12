@@ -543,7 +543,7 @@ export default class DesignImg extends Component {
         />
         <polygon
           points="818.68 397.67 818.68 429.74 1033.33 446.06 1033.33 411.92 949.61 407.17 941.3 414.6 907.15 412.22 894.98 403.31 818.68 397.67"
-          fill="#fff"
+          fill={theme.compImgHighlight}
         />
         <polygon
           points="686.27 389.06 737.04 392.63 736.45 408.76 703.3 408.76 681.13 400.05 686.27 389.06"
@@ -559,7 +559,7 @@ export default class DesignImg extends Component {
         />
         <polygon
           points="617.4 383.42 617.4 412.22 812.15 427.66 812.15 397.08 737.04 392.63 729.03 398.56 698.74 396.78 686.27 389.06 617.4 383.42"
-          fill="#fff"
+          fill={theme.compImgHighlight}
         />
         <polygon
           points="1034.54 383.53 1061.84 385.32 1016.61 398.86 993.57 397.2 1034.54 383.53"
@@ -567,7 +567,7 @@ export default class DesignImg extends Component {
         />
         <polygon
           points="1034.54 382.35 1061.84 384.13 1016.61 397.67 993.57 396.01 1034.54 382.35"
-          fill="#fff"
+          fill={theme.compImgHighlight}
         />
         <path
           d="M1049.24,557.45c1.08-.47,2.23.4,3.38.62.65.13,1.33,0,2,.13,1.34.18,2.66,1.07,3.94.62Z"

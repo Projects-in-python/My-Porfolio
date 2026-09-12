@@ -5,7 +5,10 @@ import styled from "styled-components";
 
 const IconWrapper = styled.span`
   i {
-    background-color: ${(props) => props.backgroundColor};
+    background-color: ${(props) =>
+      props.theme.isDark && props.darkBackgroundColor
+        ? props.darkBackgroundColor
+        : props.backgroundColor};
   }
   &:hover i {
     background-color: ${({ theme }) => theme.text};

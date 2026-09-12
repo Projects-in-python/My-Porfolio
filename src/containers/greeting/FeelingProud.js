@@ -15,7 +15,7 @@ class FeelingProud extends Component {
         <title>feeling_proud</title>
         <polygon
           points="516.326 380.018 516.326 565.013 547.27 615.443 549.625 619.279 671.722 619.279 674.189 380.018 516.326 380.018"
-          fill="#e6e6e6"
+          fill={theme.compImgHighlight}
         />
         <polygon
           points="516.326 380.018 516.326 565.013 547.27 615.443 549.169 380.018 516.326 380.018"
@@ -23,7 +23,7 @@ class FeelingProud extends Component {
         />
         <polygon
           points="221.566 375.084 221.566 560.08 190.622 610.51 188.267 614.345 66.17 614.345 63.703 375.084 221.566 375.084"
-          fill="#e6e6e6"
+          fill={theme.compImgHighlight}
         />
         <polygon
           points="221.566 375.084 221.566 560.08 190.622 610.51 188.723 375.084 221.566 375.084"
@@ -31,7 +31,7 @@ class FeelingProud extends Component {
         />
         <polygon
           points="711.188 371.385 711.188 382.484 47.67 382.484 47.67 366.451 109.335 334.385 656.923 334.385 711.188 371.385"
-          fill="#e6e6e6"
+          fill={theme.compImgHighlight}
         />
         <polygon
           points="711.188 371.385 711.188 382.484 47.67 382.484 47.67 366.451 711.188 371.385"
@@ -79,10 +79,20 @@ class FeelingProud extends Component {
           y="130.42445"
           width="249.99557"
           height="139.87094"
-          fill="#f2f2f2"
+          fill={theme.compImgHighlight}
         />
-        <circle cx="490.82114" cy="125.99415" r="1.58225" fill="#f2f2f2" />
-        <circle cx="490.82114" cy="294.34559" r="6.01255" fill="#f2f2f2" />
+        <circle
+          cx="490.82114"
+          cy="125.99415"
+          r="1.58225"
+          fill={theme.compImgHighlight}
+        />
+        <circle
+          cx="490.82114"
+          cy="294.34559"
+          r="6.01255"
+          fill={theme.compImgHighlight}
+        />
         <polygon
           points="481.452 357.952 481.452 361.117 311.202 361.117 311.202 358.585 311.436 357.952 315.632 346.56 477.971 346.56 481.452 357.952"
           fill={theme.text}
@@ -102,7 +112,7 @@ class FeelingProud extends Component {
           cy="350.99016"
           rx="4.11385"
           ry="1.2658"
-          fill="#f2f2f2"
+          fill={theme.compImgHighlight}
         />
         <polygon
           points="481.452 357.952 481.452 361.117 311.202 361.117 311.202 358.585 311.436 357.952 481.452 357.952"
