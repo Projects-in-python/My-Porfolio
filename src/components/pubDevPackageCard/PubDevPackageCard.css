@@ -1,0 +1,304 @@
+.pub-package-card {
+  display: flex;
+  min-width: 0;
+  flex-direction: column;
+  border-radius: 16px;
+  padding: 28px;
+  height: 100%;
+  box-sizing: border-box;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.pub-package-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.12);
+}
+
+.pub-package-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.pub-package-identity {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  min-width: 0;
+}
+
+.pub-package-icon {
+  font-size: 34px;
+  line-height: 1;
+}
+
+.pub-package-naming {
+  min-width: 0;
+}
+
+.pub-package-name {
+  font-size: 26px;
+  font-family: "Google Sans Medium", sans-serif;
+  margin: 0;
+  word-break: break-word;
+}
+
+.pub-package-category {
+  font-size: 13px;
+  font-family: "Google Sans Regular", sans-serif;
+  letter-spacing: 0.4px;
+  margin-top: 4px;
+}
+
+.pub-package-badges {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 8px;
+}
+
+.pub-version-badge {
+  font-size: 14px;
+  font-family: "Google Sans Medium", sans-serif;
+  padding: 5px 12px;
+  border-radius: 999px;
+  white-space: nowrap;
+}
+
+.pub-live-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 12px;
+  font-family: "Google Sans Regular", sans-serif;
+  white-space: nowrap;
+}
+
+.pub-live-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.pub-package-tagline {
+  font-size: 18px;
+  font-family: "Google Sans Medium", sans-serif;
+  margin: 20px 0 8px 0;
+  line-height: 1.4;
+}
+
+.pub-package-description {
+  font-size: 15px;
+  font-family: "Google Sans Regular", sans-serif;
+  line-height: 1.6;
+  margin: 0 0 22px 0;
+}
+
+.pub-metrics-grid {
+  display: grid;
+  min-width: 0;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.pub-metric {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 14px 8px;
+  border-radius: 10px;
+}
+
+.pub-metric-icon {
+  font-size: 20px;
+  margin-bottom: 6px;
+}
+
+.pub-metric-value {
+  font-size: 19px;
+  font-family: "Google Sans Medium", sans-serif;
+  line-height: 1.2;
+  word-break: break-word;
+}
+
+.pub-metric-label {
+  font-size: 11px;
+  font-family: "Google Sans Regular", sans-serif;
+  margin-top: 4px;
+  letter-spacing: 0.2px;
+}
+
+.pub-score-bar-div {
+  margin-bottom: 22px;
+}
+
+.pub-score-bar-labels {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  font-family: "Google Sans Regular", sans-serif;
+  margin-bottom: 6px;
+}
+
+.pub-score-bar-track {
+  width: 100%;
+  height: 8px;
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.pub-score-bar-fill {
+  height: 100%;
+  border-radius: 999px;
+  transition: width 0.8s ease-in-out;
+}
+
+.pub-install-div {
+  display: flex;
+  align-items: stretch;
+  gap: 8px;
+  margin-bottom: 22px;
+}
+
+.pub-install-command {
+  flex: 1;
+  min-width: 0;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 13px;
+  padding: 11px 14px;
+  border-radius: 8px;
+  overflow-x: auto;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+}
+
+.pub-copy-btn {
+  font-size: 13px;
+  font-family: "Google Sans Medium", sans-serif;
+  padding: 0 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  outline: none;
+  transition: all 0.2s ease-in-out;
+  white-space: nowrap;
+}
+
+.pub-highlights {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 20px 0;
+}
+
+.pub-highlight-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  font-size: 14px;
+  font-family: "Google Sans Regular", sans-serif;
+  line-height: 1.5;
+  margin-bottom: 9px;
+}
+
+.pub-highlight-check {
+  flex-shrink: 0;
+  font-weight: bold;
+}
+
+.pub-platforms {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 22px;
+}
+
+.pub-platform-chip {
+  font-size: 12px;
+  font-family: "Google Sans Regular", sans-serif;
+  padding: 5px 12px;
+  border-radius: 999px;
+}
+
+.pub-package-footer {
+  margin-top: auto;
+  padding-top: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 14px;
+}
+
+.pub-published-on {
+  font-size: 13px;
+  font-family: "Google Sans Regular", sans-serif;
+}
+
+.pub-package-actions {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.pub-action-btn {
+  font-size: 14px;
+  font-family: "Google Sans Medium", sans-serif;
+  padding: 9px 18px;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: transform 0.2s ease-in-out, opacity 0.2s ease-in-out;
+  white-space: nowrap;
+}
+
+.pub-action-btn:hover {
+  transform: translateY(-2px);
+  opacity: 0.9;
+}
+
+@media (max-width: 768px) {
+  .pub-package-card {
+    padding: 22px;
+  }
+
+  .pub-package-top {
+    flex-direction: column;
+  }
+
+  .pub-package-badges {
+    flex-direction: row;
+    align-items: center;
+    align-self: flex-start;
+  }
+
+  .pub-package-name {
+    font-size: 22px;
+  }
+
+  .pub-package-tagline {
+    font-size: 16px;
+  }
+
+  .pub-metrics-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .pub-package-footer {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .pub-package-actions {
+    width: 100%;
+  }
+
+  .pub-action-btn {
+    flex: 1;
+    text-align: center;
+  }
+}

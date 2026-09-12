@@ -1,3 +1,47 @@
 .opensource-main {
   width: 100%;
 }
+
+.opensource-intro-div {
+  max-width: 1200px;
+  margin: 40px auto 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.opensource-intro-title {
+  font-size: 56px;
+  font-family: "Google Sans Medium", sans-serif;
+  line-height: 1.1;
+  margin: 0 0 16px 0;
+}
+
+.opensource-intro-text {
+  font-size: 20px;
+  font-family: "Google Sans Regular", sans-serif;
+  line-height: 1.6;
+  max-width: 840px;
+  margin: 0 auto;
+}
+
+@media (max-width: 1380px) {
+  .opensource-intro-title {
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  .opensource-intro-div {
+    margin-top: 20px;
+  }
+
+  .opensource-intro-title {
+    font-size: 30px;
+  }
+
+  .opensource-intro-text {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+}

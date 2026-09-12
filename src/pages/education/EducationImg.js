@@ -80,7 +80,7 @@ export default class EducationImg extends Component {
         <path
           d="M655.01556,699.105c-8.584-4.11751-444.8438-220.718-438.55625-217.5983,24.21371-36.95739,31.19689-62.87545,31.19689-62.87545l438.55625,217.5983S670.81132,663.25857,655.01556,699.105Z"
           transform="translate(-202.30284 -162.98099)"
-          fill="#f5f5f5"
+          fill={theme.compImgHighlight}
         />
         <rect
           x="421.72508"
@@ -201,14 +201,20 @@ export default class EducationImg extends Component {
         />
         <polygon
           points="553.894 257.32 547.894 257.68 541.184 143.67 547.374 146.53 553.894 257.32"
-          fill="#f5f5f5"
+          fill={theme.compImgHighlight}
         />
         <path
           d="M411.19716,386.481l-28,170s201-65,376,0l-26-180S498.19716,347.481,411.19716,386.481Z"
           transform="translate(-202.30284 -162.98099)"
           fill={theme.imageHighlight}
         />
-        <ellipse cx="553.39431" cy="272" rx="29" ry="20" fill="#f5f5f5" />
+        <ellipse
+          cx="553.39431"
+          cy="272"
+          rx="29"
+          ry="20"
+          fill={theme.compImgHighlight}
+        />
       </svg>
     );
   }

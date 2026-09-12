@@ -3,8 +3,6 @@ import "./Organizations.css";
 import { Fade } from "react-reveal";
 import OrganizationList from "../../components/organizationList/OrganizationList";
 import OrganizationsData from "../../shared/opensource/organizations.json";
-import OpenSourceProjects from "../../components/openSourceProjects/OpenSourceProjects";
-import OpenSourceProjectsData from "../../shared/opensource/opensourceProjects.json";
 
 class Organizations extends Component {
   render() {
@@ -19,10 +17,6 @@ class Organizations extends Component {
           </Fade>
         </div>
         <OrganizationList logos={OrganizationsData["data"]} />
-        <OpenSourceProjects
-          projectsData={OpenSourceProjectsData}
-          theme={theme}
-        />
       </div>
     );
   }

@@ -26,7 +26,7 @@
 }
 
 .subTitle {
-  color: #868e96;
+  color: var(--muted-text, #868e96);
 }
 
 /* Animations */

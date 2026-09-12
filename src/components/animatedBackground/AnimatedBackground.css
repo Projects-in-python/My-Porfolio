@@ -1,0 +1,62 @@
+/* Any section that hosts an animated background.
+   `isolation: isolate` creates a stacking context, which keeps the
+   `z-index: -1` canvas inside this element: it paints above the page
+   background but behind every child, so no content markup needs changing. */
+.anim-bg-host {
+  position: relative;
+  isolation: isolate;
+}
+
+.anim-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  /* No overflow:hidden here — it would make this the scroll container and
+     stop .anim-bg-sticky from sticking. */
+  /* Never intercept clicks on the content above. */
+  pointer-events: none;
+  /* No background of its own — the page's own colour shows through. */
+  background: transparent;
+}
+
+/* One viewport-sized canvas that travels down the section as you scroll.
+   max-height keeps it inside short hosts (the hero) so it can't bleed into
+   the section below. */
+.anim-bg-sticky {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  /* Height is set from JS (min of viewport and section height); this is just
+     the pre-hydration fallback. position:sticky can't be used because
+     html/body carry overflow-x:hidden, so JS drives the offset instead. */
+  height: 100vh;
+  max-height: 100%;
+  overflow: hidden;
+  /* Promote to its own layer so scroll repaints stay off the content. */
+  will-change: transform;
+}
+
+.anim-bg canvas {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+}
+
+/* The hero animation is the densest; ease it off on small screens where the
+   content occupies nearly the whole viewport. */
+@media (max-width: 768px) {
+  .anim-bg {
+    opacity: 0.75;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .anim-bg {
+    opacity: 0.5;
+  }
+}

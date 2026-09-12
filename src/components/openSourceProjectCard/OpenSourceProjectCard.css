@@ -1,5 +1,6 @@
 .os-project-card {
   border-radius: 12px;
+  min-width: 0;
   padding: 24px;
   display: flex;
   flex-direction: column;
@@ -66,6 +67,34 @@
   font-size: 0.95rem;
   line-height: 1.6;
   margin-bottom: 24px;
+}
+
+.os-project-stats {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px 18px;
+  padding: 12px 14px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  font-size: 0.82rem;
+}
+
+.os-stat {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  white-space: nowrap;
+}
+
+.os-stat-icon {
+  font-size: 1rem;
+}
+
+.os-project-note {
+  font-size: 0.85rem;
+  font-style: italic;
+  align-self: center;
 }
 
 .os-project-technologies {

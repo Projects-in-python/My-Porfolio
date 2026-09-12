@@ -15,7 +15,7 @@
 }
 
 .software-skill-inline > i {
-  color: #868e96;
+  color: var(--muted-text, #868e96);
 }
 
 .software-skill-inline > i:hover {

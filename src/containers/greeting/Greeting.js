@@ -5,12 +5,14 @@ import Button from "../../components/button/Button";
 import { greeting } from "../../portfolio";
 import { Fade } from "react-reveal";
 import FeelingProud from "./FeelingProud";
+import AnimatedBackground from "../../components/animatedBackground/AnimatedBackground";
 
 export default function Greeting(props) {
   const theme = props.theme;
   return (
     <Fade bottom duration={2000} distance="40px">
-      <div className="greet-main" id="greeting">
+      <div className="greet-main anim-bg-host" id="greeting">
+        <AnimatedBackground variant="hero" theme={theme} />
         <div className="greeting-main">
           <div className="greeting-text-div">
             <div>

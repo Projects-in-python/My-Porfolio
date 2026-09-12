@@ -4,6 +4,7 @@ import { Fade } from "react-reveal";
 import { NavLink, Link } from "react-router-dom";
 import { greeting, settings } from "../../portfolio.js";
 import SeoHeader from "../seoHeader/SeoHeader";
+import ThemeToggle from "../themeToggle/ThemeToggle";
 
 const onMouseEnter = (event, color) => {
   const el = event.target;
@@ -35,6 +36,9 @@ class Header extends Component {
             <label className="menu-icon" htmlFor="menu-btn">
               <span className="navicon"></span>
             </label>
+            <div className="header-theme-toggle">
+              <ThemeToggle theme={theme} />
+            </div>
             <ul className="menu" style={{ backgroundColor: theme.body }}>
               <li>
                 <NavLink

@@ -1,6 +1,34 @@
 {
   "data": [
     {
+      "id": "flutter-devops",
+      "title": "flutter_devops",
+      "icon": "🚀",
+      "category": "Open Source · Dart CLI · DevOps",
+      "highlight": "Published on pub.dev — an enterprise DevOps toolkit for Flutter teams.",
+      "description": "A Dart command line toolkit that automates Flutter delivery: CI/CD pipeline generation, multi-flavour environment management, Clean Architecture audits, dependency auditing and signed release automation across all six Flutter targets.",
+      "technologies": [
+        "Dart",
+        "Flutter",
+        "CI/CD",
+        "GitHub Actions",
+        "Fastlane",
+        "Codemagic"
+      ],
+      "features": [
+        "Pipeline Generation",
+        "Environment Management",
+        "Architecture Audits",
+        "Dependency Auditing",
+        "Release Automation",
+        "Cross-Platform Support"
+      ],
+      "github": "https://github.com/Code-Making/flutter_devops",
+      "demo": "https://pub.dev/packages/flutter_devops",
+      "demoLabel": "View on pub.dev ↗",
+      "status": "Published"
+    },
+    {
       "id": "24ryde-user",
       "title": "24Ryde User App",
       "icon": "🚖",
@@ -24,8 +52,9 @@
         "Scalable Architecture"
       ],
       "github": "https://github.com/Code-Making/24Ryde-User-App",
-      "demo": "",
-      "status": "Open Source"
+      "demo": "https://drive.google.com/file/d/1hp7LIYi5XNg8Pr67QzINtFL_1PJo9Mnh/view",
+      "status": "Open Source",
+      "demoLabel": "Watch demo ↗"
     },
     {
       "id": "24ryde-driver",
@@ -51,8 +80,9 @@
         "Driver Operations"
       ],
       "github": "https://github.com/Code-Making/24Ryder-Diver-App",
-      "demo": "",
-      "status": "Open Source"
+      "demo": "https://drive.google.com/file/d/1Sjo4XiZZvp_M2l05dHSh-y-i0D7mYQoN/view",
+      "status": "Open Source",
+      "demoLabel": "Watch demo ↗"
     },
     {
       "id": "jalkrishi-ai",
@@ -78,8 +108,9 @@
         "Market Insights"
       ],
       "github": "",
-      "demo": "",
-      "status": "Design Concept"
+      "demo": "https://drive.google.com/file/d/1hfQMSmA1geRfKmif5sqL1SSBtK6Hcy_Q/view?usp=sharing",
+      "status": "Design Concept",
+      "demoLabel": "View concept ↗"
     }
   ]
 }

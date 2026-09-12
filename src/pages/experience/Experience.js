@@ -7,6 +7,7 @@ import "./Experience.css";
 import { experience } from "../../portfolio.js";
 import { Fade } from "react-reveal";
 import ExperienceImg from "./ExperienceImg";
+import AnimatedBackground from "../../components/animatedBackground/AnimatedBackground";
 
 // const experience = {
 // 	title: "Experience",
@@ -148,7 +149,8 @@ class Experience extends Component {
   render() {
     const theme = this.props.theme;
     return (
-      <div className="experience-main">
+      <div className="experience-main anim-bg-host">
+        <AnimatedBackground variant="experience" theme={theme} />
         <Header theme={theme} />
         <div className="basic-experience">
           <Fade bottom duration={2000} distance="40px">

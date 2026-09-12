@@ -103,6 +103,24 @@
       }
     })(window.location);
   </script>
+  <script>
+    // Paint the correct background before React mounts, otherwise dark-mode
+    // visitors get a white flash on every page load. Mirrors getInitialMode()
+    // in src/App.js — keep the storage key in sync.
+    (function () {
+      try {
+        var saved = window.localStorage.getItem("portfolio-theme");
+        // Dark is the default; only an explicit saved "light" opts out.
+        var isDark = saved !== "light";
+        var root = document.documentElement;
+        root.setAttribute("data-theme", isDark ? "dark" : "light");
+        root.style.colorScheme = isDark ? "dark" : "light";
+        root.style.backgroundColor = isDark ? "#0B1120" : "#EDF9FE";
+        var meta = document.querySelector('meta[name="theme-color"]');
+        if (meta) meta.setAttribute("content", isDark ? "#0B1120" : "#EDF9FE");
+      } catch (e) {}
+    })();
+  </script>
 </head>
 
 <body>

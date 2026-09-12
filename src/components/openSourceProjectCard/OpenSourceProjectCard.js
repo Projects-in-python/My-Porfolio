@@ -2,7 +2,21 @@ import React from "react";
 import "./OpenSourceProjectCard.css";
 import { Fade } from "react-reveal";
 
-export default function OpenSourceProjectCard({ project, theme }) {
+// "2026-06-20T08:27:53Z" -> "20 Jun 2026"
+function formatDate(iso) {
+  if (!iso) return null;
+  const date = new Date(iso);
+  if (isNaN(date.getTime())) return null;
+  return date.toLocaleDateString("en-GB", {
+    day: "numeric",
+    month: "short",
+    year: "numeric",
+  });
+}
+
+export default function OpenSourceProjectCard({ project, stats, theme }) {
+  const lastUpdated = stats ? formatDate(stats.updatedAt) : null;
+
   return (
     <Fade bottom duration={2000} distance="40px">
       <div
@@ -47,6 +61,57 @@ export default function OpenSourceProjectCard({ project, theme }) {
           {project.description}
         </p>
 
+        {stats && (
+          <div
+            className="os-project-stats"
+            style={{
+              backgroundColor: theme.compImgHighlight,
+              color: theme.secondaryText,
+            }}
+          >
+            <span className="os-stat" title="Stars on GitHub">
+              <span
+                className="iconify os-stat-icon"
+                data-icon="mdi:star-outline"
+                data-inline="false"
+                style={{ color: theme.imageHighlight }}
+              />
+              <strong style={{ color: theme.text }}>{stats.stars}</strong> stars
+            </span>
+            <span className="os-stat" title="Forks on GitHub">
+              <span
+                className="iconify os-stat-icon"
+                data-icon="mdi:source-fork"
+                data-inline="false"
+                style={{ color: theme.imageHighlight }}
+              />
+              <strong style={{ color: theme.text }}>{stats.forks}</strong> forks
+            </span>
+            {stats.language && (
+              <span className="os-stat" title="Primary language">
+                <span
+                  className="iconify os-stat-icon"
+                  data-icon="mdi:code-tags"
+                  data-inline="false"
+                  style={{ color: theme.imageHighlight }}
+                />
+                <strong style={{ color: theme.text }}>{stats.language}</strong>
+              </span>
+            )}
+            {lastUpdated && (
+              <span className="os-stat" title="Last push to the default branch">
+                <span
+                  className="iconify os-stat-icon"
+                  data-icon="mdi:history"
+                  data-inline="false"
+                  style={{ color: theme.imageHighlight }}
+                />
+                Updated {lastUpdated}
+              </span>
+            )}
+          </div>
+        )}
+
         <div className="os-project-technologies">
           {project.technologies.map((tech, i) => (
             <span
@@ -84,7 +149,7 @@ export default function OpenSourceProjectCard({ project, theme }) {
           className="os-project-footer"
           style={{ borderTop: `1px solid ${theme.imageHighlight}40` }}
         >
-          {project.github ? (
+          {project.github && (
             <a
               href={project.github}
               target="_blank"
@@ -94,16 +159,9 @@ export default function OpenSourceProjectCard({ project, theme }) {
             >
               GitHub ↗
             </a>
-          ) : (
-            <span
-              className="os-project-btn os-github-btn disabled"
-              style={{ backgroundColor: theme.text + "80", color: theme.body }}
-            >
-              GitHub ↗
-            </span>
           )}
 
-          {project.demo ? (
+          {project.demo && (
             <a
               href={project.demo}
               target="_blank"
@@ -114,17 +172,16 @@ export default function OpenSourceProjectCard({ project, theme }) {
                 color: theme.body,
               }}
             >
-              Explore ↗
+              {project.demoLabel || "Explore ↗"}
             </a>
-          ) : (
+          )}
+
+          {!project.github && !project.demo && (
             <span
-              className="os-project-btn os-explore-btn disabled"
-              style={{
-                backgroundColor: theme.imageHighlight + "80",
-                color: theme.body,
-              }}
+              className="os-project-note"
+              style={{ color: theme.secondaryText }}
             >
-              Explore ↗
+              Source release in progress
             </span>
           )}
         </div>
