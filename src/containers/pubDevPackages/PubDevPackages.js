@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import "./PubDevPackages.css";
 import { Fade } from "react-reveal";
 import PubDevPackageCard from "../../components/pubDevPackageCard/PubDevPackageCard";
+import PubDevCarousel from "../../components/pubDevCarousel/PubDevCarousel";
 import { pubDevPackages } from "../../portfolio";
 
 const PUB_DEV_API = "https://pub.dev/api/packages";
@@ -87,26 +88,42 @@ export default function PubDevPackages({ theme }) {
         </div>
       </Fade>
 
-      <div
-        className={
-          packages.length === 1
-            ? "pub-packages-grid pub-packages-grid-single"
-            : "pub-packages-grid"
-        }
-      >
-        {packages.map((pkg) => {
-          const entry = liveStats[pkg.name];
-          return (
-            <PubDevPackageCard
-              key={pkg.name}
-              pkg={pkg}
-              stats={entry.stats}
-              isLive={entry.isLive}
+      {packages.length === 1 ? (
+        <div className="pub-packages-grid pub-packages-grid-single">
+          <PubDevPackageCard
+            pkg={packages[0]}
+            stats={liveStats[packages[0].name].stats}
+            isLive={liveStats[packages[0].name].isLive}
+            theme={theme}
+          />
+        </div>
+      ) : (
+        // The section centres its children, which would shrink the reveal
+        // wrapper to the track's content width; pin it to the full width.
+        <div className="pub-packages-carousel-div">
+          <Fade bottom duration={2000} distance="40px">
+            <PubDevCarousel
+              items={packages}
+              getKey={(pkg) => pkg.name}
+              getLabel={(pkg) => pkg.name}
+              ariaLabel={pubDevPackages.title}
               theme={theme}
+              renderItem={(pkg) => {
+                const entry = liveStats[pkg.name];
+                return (
+                  <PubDevPackageCard
+                    pkg={pkg}
+                    stats={entry.stats}
+                    isLive={entry.isLive}
+                    theme={theme}
+                    animate={false}
+                  />
+                );
+              }}
             />
-          );
-        })}
-      </div>
+          </Fade>
+        </div>
+      )}
     </div>
   );
 }

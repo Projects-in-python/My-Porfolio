@@ -37,6 +37,11 @@
   width: 100%;
 }
 
+.pub-packages-carousel-div {
+  width: 100%;
+  min-width: 0;
+}
+
 /* A single published package reads better as one centred, narrower card
    than as a lone half-width column. */
 .pub-packages-grid-single {

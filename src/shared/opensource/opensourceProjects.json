@@ -29,6 +29,34 @@
       "status": "Published"
     },
     {
+      "id": "file-anchor",
+      "title": "file_anchor",
+      "icon": "⚓",
+      "category": "Open Source · Flutter Plugin · File System",
+      "highlight": "8 federated packages on pub.dev — pick a file or folder once, access it anywhere.",
+      "description": "A federated Flutter plugin that turns a user-selected location into a durable, opaque anchor token. Native implementations for Android (Storage Access Framework), iOS and macOS (security-scoped bookmarks), Windows (IFileOpenDialog, zero C++) and Linux (XDG desktop portal), with typed failures for stale, revoked and unavailable anchors.",
+      "technologies": [
+        "Dart",
+        "Flutter",
+        "Federated Plugins",
+        "Kotlin",
+        "Swift",
+        "XDG Portal"
+      ],
+      "features": [
+        "Persistent Access",
+        "Cross-Platform Support",
+        "Streaming I/O",
+        "Safe Relative Paths",
+        "MemoryAnchor Testing",
+        "Capability Reporting"
+      ],
+      "github": "https://github.com/Code-Making/file_anchor",
+      "demo": "https://pub.dev/packages/file_anchor",
+      "demoLabel": "View on pub.dev ↗",
+      "status": "Published"
+    },
+    {
       "id": "24ryde-user",
       "title": "24Ryde User App",
       "icon": "🚖",
