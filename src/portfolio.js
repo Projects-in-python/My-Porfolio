@@ -51,7 +51,7 @@ const socialMediaLinks = [
   },
   {
     name: "Gmail",
-    link: "mailto:uttampbh123@gmail.com",
+    link: "mailto:uttams.singh500@gmail.com",
     fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
     backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
   },
@@ -975,9 +975,10 @@ const contactPageData = {
     {
       id: "email",
       title: "Email",
-      value: "uttampbh123@gmail.com",
+      value: "uttams.singh500@gmail.com",
       subtitle: "Best for detailed enquiries \u2014 replies within 24 hours",
-      link: "mailto:uttampbh123@gmail.com?subject=Let%27s%20work%20together",
+      link:
+        "mailto:uttams.singh500@gmail.com?subject=Let%27s%20work%20together",
       iconifyClassname: "mdi:email-outline",
       color: "#D14836",
       cta: "Send an email",
