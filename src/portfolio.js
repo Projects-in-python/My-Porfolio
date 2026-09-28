@@ -540,36 +540,36 @@ const experience = {
       work: true,
       experiences: [
         {
-          title: "Development Team Lead",
+          title: "Team Lead",
           company: "Atoconn Systems Lab Pvt. Ltd.",
           company_url: "https://atoconn.com/",
           logo_path: "atoconn.png",
           duration: "July 2025 - Present",
           location: "Hybrid",
           description:
-            "Leading a team of 4+ Flutter developers to build enterprise-grade Android and iOS applications. Architect scalable applications using Flutter, Clean Architecture, MVVM, SOLID Principles, Repository Pattern, and Dependency Injection (GetIt). Established coding standards, mentored developers, implemented CI/CD pipelines using GitHub Actions and Fastlane, integrated Firebase, GraphQL, REST APIs, JWT/OAuth authentication, and optimized application performance by reducing startup time and memory usage.",
+            "Led delivery across 3 production platforms including WowCare, WowInventory, and JSW Vessel Management System, supporting feature development, technical delivery, and production application improvements. Mentored 4+ Flutter developers through architecture discussions, code reviews, debugging, and technical guidance. Architected and delivered 3+ production Flutter solutions using Clean Architecture, MVVM, Bloc, Cubit, SOLID, and GetIt, reducing development cycles by nearly 40%. Automated mobile release workflows using GitHub Actions, Fastlane, and CI/CD, reducing release cycles by nearly 50%. Integrated 1000+ REST endpoints with Firebase, OAuth/JWT, analytics, and third-party SDKs. Improved application startup performance by approximately 40% through rendering and memory optimizations.",
           color: "#0879bf",
         },
         {
-          title: "Senior Software Engineer",
+          title: "Senior Software Developer",
           company: "Atoconn Systems Lab Pvt. Ltd.",
           company_url: "https://atoconn.com/",
           logo_path: "atoconn.png",
-          duration: "December 2024 - June 2025",
+          duration: "July 2024 - June 2025",
           location: "Hybrid",
           description:
-            "Developed scalable Flutter applications using Dart, Bloc, Cubit, Riverpod, Provider, and Clean Architecture. Designed modular mobile architectures with MVVM, Repository Pattern, Dependency Injection, and SOLID Principles. Integrated REST APIs, Firebase, GraphQL, payment gateways, and secure authentication.",
+            "Led 4+ Flutter developers while delivering 60+ production features across PineWraps, WowInventory, and PathPulse. Built 3+ scalable Flutter products using SOLID, Bloc, Cubit, GetIt, and layered architecture, accelerating development and delivery by approximately 30%. Standardized feature architecture and reusable development patterns, reducing feature integration time by approximately 30%. Designed scalable API infrastructure using Dio, Dependency Injection, and Repository Pattern. Optimized Flutter startup performance and rendering workflows, reducing application launch latency by approximately 40%.",
           color: "#9b1578",
         },
         {
-          title: "Software Engineer",
+          title: "Software Developer",
           company: "Atoconn Systems Lab Pvt. Ltd.",
           company_url: "https://atoconn.com/",
           logo_path: "atoconn.png",
-          duration: "July 2022 - November 2024",
+          duration: "March 2023 - June 2024",
           location: "India",
           description:
-            "Developed production-ready Flutter applications for Android and iOS with responsive UI, reusable widgets, and optimized application performance. Integrated REST APIs, Firebase Authentication, Firestore, Cloud Messaging, and secure payment workflows using Dio and HTTP.",
+            "Developed and maintained production Flutter applications by implementing responsive interfaces, reusable components, REST API integrations, and scalable application features. Implemented modular application features using Clean Architecture, Bloc/Cubit, Dio, Repository Pattern, and Dependency Injection. Collaborated with a 4+ member Flutter team to deliver production features, troubleshoot application issues, integrate backend services, and improve overall application stability.",
           color: "#fc1f20",
         },
       ],
@@ -578,14 +578,14 @@ const experience = {
       title: "Internships",
       experiences: [
         {
-          title: "Associate Software Intern",
+          title: "Intern - Software Developer",
           company: "Atoconn Systems Lab Pvt. Ltd.",
           company_url: "https://atoconn.com/",
           logo_path: "atoconn.png",
-          duration: "July 2022 - March 2023",
+          duration: "July 2022 - February 2023",
           location: "Hybrid",
           description:
-            "Developed expertise in Flutter fundamentals, Python, Django, Django REST Framework, REST API development, database management, version control, and software engineering best practices.",
+            "Developed backend services for the Alexia Global application using Django REST Framework, implementing JWT authentication, database models, REST APIs, and Flutter application integrations.",
           color: "#000000",
         },
       ],
@@ -965,7 +965,7 @@ const publications = {
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "uttam.jpg",
+    profile_image_path: "uttam.jpeg",
     description:
       "I'm always open to discussing Flutter development, cross-platform mobile applications, software architecture, technical leadership, and exciting collaboration opportunities. Whether you have a project, a job opportunity, or simply want to connect, feel free to reach out. I typically respond within 24 hours.",
   },
